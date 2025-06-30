@@ -32,7 +32,15 @@ public class User {
 
     private role role;
 
+    public enum role{
+        USER, ADMIN
+    }
+
     private SubscriptionStatus subscriptionStatus;
+
+    public enum SubscriptionStatus{
+        SUBSCRIPTED, UNSUBSCRIPTED
+    }
 
     private Date subscriptionStartAt;
 
